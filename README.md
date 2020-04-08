@@ -2,12 +2,14 @@
 
 The toy robot is a simulation of a robot that moves on a 5x5 square tabletop. There are no other obstructions on the table surface. The robot is free to roam around the surface of the table. Any movement that would result in the robot falling from the table is prevented, however further valid movement commands are still allowed.
 
-The input:
-> PLACE X, Y, F
-> MOVE
-> LEFT
-> RIGHT
-> REPORT
+```
+PLACE X, Y, F
+MOVE
+LEFT
+RIGHT
+REPORT
+```
+
 
 1. PLACE will put the toy robot on the table in position X, Y and facing NORTH, SOUTH, EAST, or WEST
 2. The origin 0, 0 is the SOUTHWEST most corner
